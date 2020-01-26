@@ -8,10 +8,10 @@ import json
 import datetime
 from urllib3.exceptions import ProtocolError
 
-consumer_key = 'jjQdCBj5jP24RO5HnjJrulvcB'
-consumer_secret = '9V0WwZX3AG8H8FGAHOHPibPqYQvcNKtkoOX52X8FHhOQffdkWP'
-access_token = '1088892298241470465-EHBBxIo1Rub82Rz7bgOixFJZxFMblB'
-access_secret = 'CRCpkns7jRZVp7SLCgQxOAZkyCSzpKXW9PiFvp86OtOVl'
+consumer_key = ''
+consumer_secret = ''
+access_token = ''
+access_secret = ''
  
 auth = OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_secret)
